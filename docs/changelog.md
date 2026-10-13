@@ -4,6 +4,9 @@ This file records changes to this documentation and support repository. It is no
 
 ## 2026-10-13
 
+- Added separate [product release notes](release-notes.md) with the owner-confirmed release status: Windows and macOS remote agents released; main desktop studio not publicly released.
+- Recorded the current studio documentation as an **Unreleased** development baseline, without inventing product version numbers or release dates.
+- Corrected the overview, platform notes, documentation index and getting-started guide to distinguish preview workflows from released software.
 - Published the public product overview and getting-started guide.
 - Added public issue-reporting guidance and private support information.
 - Added platform and feature availability notes.
@@ -11,4 +14,4 @@ This file records changes to this documentation and support repository. It is no
 - Added Markdown templates for bug reports and feature requests.
 - Linked to the official website, user guides, pricing and relevant product pages.
 
-Application downloads and current product information remain on [aigopilot.com](https://aigopilot.com/).
+Official agent download information and product information remain on [aigopilot.com](https://aigopilot.com/). No application code or installers are stored in this repository.

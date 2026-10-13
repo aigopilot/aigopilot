@@ -2,11 +2,14 @@
 
 AigoPilot is a Windows desktop workspace for Claude Code, Codex and Grok. This folder contains public user documentation and sample product previews.
 
-[Official AigoPilot website](https://aigopilot.com/) · [Full user guide](https://aigopilot.com/guide) · [Current pricing and trial](https://aigopilot.com/#pricing)
+**Release status, confirmed 13 October 2026:** only the remote agents for Windows and macOS have been released. The main application has not been publicly released; studio guides and images are development previews.
+
+[Official AigoPilot website](https://aigopilot.com/) · [Full user guide](https://aigopilot.com/guide) · [Pricing information](https://aigopilot.com/#pricing)
 
 ## Topics
 
-- [Getting started](getting-started.md): installation, first-run setup and your first project.
+- [Product release notes](release-notes.md): confirmed releases and the current studio development baseline.
+- [Getting started](getting-started.md): released agent information and preview studio setup workflows.
 - [Platforms and feature availability](platforms-and-availability.md): the Windows studio, remote agents, iPhone companion and optional plugins.
 - [Support](support.md): where to ask for help and how to report a problem safely.
 - [Bug report template](bug-report-template.md): a structure for reproducible public reports.
@@ -23,4 +26,4 @@ AigoPilot is a Windows desktop workspace for Claude Code, Codex and Grok. This f
 - [Features and current availability](https://aigopilot.com/features)
 - [Japanese website and guides](https://aigopilot.com/ja/)
 
-The official website is the current reference for downloads, pricing and feature availability. AigoPilot is proprietary software. No application source code is included here.
+Use the official website for agent downloads and product information; use the release notes for the confirmed release status. AigoPilot is proprietary software. No application source code is included here.

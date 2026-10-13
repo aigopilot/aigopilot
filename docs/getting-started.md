@@ -1,8 +1,14 @@
 # Getting started with AigoPilot
 
-## 1. Get the Windows studio
+## Current release status
 
-Start at [aigopilot.com](https://aigopilot.com/) and follow the current download or trial instructions. The studio runs on Windows 10 and Windows 11. The [installation guide](https://aigopilot.com/guide/installing-aigopilot) explains the setup process.
+As confirmed by the product owner on **13 October 2026**, only the remote agents for Windows and macOS have been released. The main desktop studio has not been publicly released. The remaining studio steps on this page are preview documentation, not instructions to download a publicly available studio today.
+
+For the released agents, start with the [official remote-computer downloads and guide](https://aigopilot.com/features/remote-computers). An agent is not a standalone replacement for the studio; the studio workflow described below requires access to a studio build.
+
+## 1. Studio setup preview
+
+The studio targets Windows 10 and Windows 11. The [installation guide](https://aigopilot.com/guide/installing-aigopilot) documents its setup workflow. Follow [aigopilot.com](https://aigopilot.com/) for future public release announcements.
 
 Downloads come from the official website. This repository does not distribute installers or contain the application source code.
 
@@ -28,7 +34,7 @@ Use the session overview and the waiting-for-you column to find completed work, 
 - [Remote computers](https://aigopilot.com/features/remote-computers)
 - [All guides](https://aigopilot.com/guide)
 
-The website marks features as available now, in development or planned. Check those labels before relying on a feature.
+Read the [confirmed release status](release-notes.md) before relying on a preview feature. Studio feature descriptions do not announce a public release.
 
 ## Need help?
 
