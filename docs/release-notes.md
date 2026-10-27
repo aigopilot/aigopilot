@@ -6,7 +6,7 @@ All builds of October 2026 carry the version number 0.1.0, so they are named her
 
 ## 0.1.0, build of 27 October 2026
 
-Windows studio, macOS studio and macOS agent. (The Linux build of 23 October below is still the current one for Linux.)
+Windows studio, macOS studio, macOS agent and Linux (AppImage and .deb). Linux also gets everything of the 25 October build below.
 
 **New**
 - Continue after an error: when a turn of Claude Code, Codex or Grok stops on an error where trying again makes sense (a usage limit, a model at capacity, a dropped connection), the studio continues the session by itself after a growing pause. It stops after 10 tries in a row without progress (you can set 1 to 50, or turn it off), never continues after an error where another try is useless, and a message it does not know is judged once by another of your own subscriptions. A session whose program ended is resumed first.
