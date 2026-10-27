@@ -1,17 +1,15 @@
-# Public repository changelog
+# Changes to this repository
 
-This file records changes to this documentation and support repository. It is not a history of application releases.
+This file records changes to the documentation here. What changed in AigoPilot itself is in the [release notes](release-notes.md).
+
+## 2026-10-27
+
+- Brought everything up to date with the build of 25 October 2026: the studio is on sale for Windows, macOS and Linux.
+- Release notes now list each build with what it added and fixed.
+- Bug reports and feature requests use issue forms. The old Markdown templates are gone.
+- Discussions are open for questions and ideas.
+- Added SECURITY.md for private reports of security problems.
 
 ## 2026-10-13
 
-- Added separate [product release notes](release-notes.md) with the owner-confirmed release status: Windows and macOS remote agents released; main desktop studio not publicly released.
-- Recorded the current studio documentation as an **Unreleased** development baseline, without inventing product version numbers or release dates.
-- Corrected the overview, platform notes, documentation index and getting-started guide to distinguish preview workflows from released software.
-- Published the public product overview and getting-started guide.
-- Added public issue-reporting guidance and private support information.
-- Added platform and feature availability notes.
-- Included the light and dark product previews already published on the official website. Both use fictional sample data.
-- Added Markdown templates for bug reports and feature requests.
-- Linked to the official website, user guides, pricing and relevant product pages.
-
-Official agent download information and product information remain on [aigopilot.com](https://aigopilot.com/). No application code or installers are stored in this repository.
+- First version: product overview, getting started, platform notes, support guidance and two screenshots with sample data.

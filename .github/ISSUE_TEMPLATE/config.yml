@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/aigopilot/aigopilot/discussions
+    about: Ask how to do something or talk an idea through.
+  - name: Billing, account or anything private
+    url: https://aigopilot.com/support
+    about: Licence, payment and private help. Not public.
+  - name: User guide
+    url: https://aigopilot.com/guide
+    about: Every part of the studio, explained.

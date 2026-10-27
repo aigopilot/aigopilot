@@ -1,41 +1,35 @@
 # Getting started with AigoPilot
 
-## Current release status
+## 1. Get the studio
 
-As confirmed by the product owner on **13 October 2026**, only the remote agents for Windows and macOS have been released. The main desktop studio has not been publicly released. The remaining studio steps on this page are preview documentation, not instructions to download a publicly available studio today.
+Buy a plan on [aigopilot.com](https://aigopilot.com/#pricing), sign in and open your profile. The download buttons for Windows and Mac are there from the moment of purchase, and the link is also emailed to you.
 
-For the released agents, start with the [official remote-computer downloads and guide](https://aigopilot.com/features/remote-computers). An agent is not a standalone replacement for the studio; the studio workflow described below requires access to a studio build.
+- **Windows 10 or 11, 64-bit:** run the installer. It installs for your user only, without administrator rights. See [Installing AigoPilot](https://aigopilot.com/guide/installing-aigopilot).
+- **macOS 13.3 or newer on Apple silicon:** open the disk image and drag AigoPilot to Applications. It is signed and notarized.
+- **Linux, x86_64:** take the AppImage or the .deb. See [Installing on Linux](https://aigopilot.com/guide/installing-on-linux).
 
-## 1. Studio setup preview
+Only download AigoPilot from aigopilot.com. A copy from anywhere else is not ours.
 
-The studio targets Windows 10 and Windows 11. The [installation guide](https://aigopilot.com/guide/installing-aigopilot) documents its setup workflow. Follow [aigopilot.com](https://aigopilot.com/) for future public release announcements.
+## 2. First-run setup
 
-Downloads come from the official website. This repository does not distribute installers or contain the application source code.
-
-## 2. Complete first-run setup
-
-Follow the [first-run setup guide](https://aigopilot.com/guide/first-run-setup). Use your own AI provider accounts. When a command-line tool needs to be installed or signed in, follow the provider's own setup flow opened by the studio.
-
-AI subscriptions and API usage are paid separately from AigoPilot. Plugin pricing is listed in the [Marketplace](https://aigopilot.com/marketplace).
+The setup starts by itself the first time the studio opens. It checks for Claude Code, Codex and Grok, offers to install a missing one with the provider's own installer, and opens the tool's own sign-in. Use your own accounts: AI usage is paid to the provider, not to AigoPilot. See [First-run setup](https://aigopilot.com/guide/first-run-setup).
 
 ## 3. Open a project
 
-Follow [Your first project](https://aigopilot.com/guide/your-first-project). Review the sessions AigoPilot finds, or start a session for the project you want to work on.
+Add a project folder, or let the studio show the projects it found from your earlier sessions. See [Your first project](https://aigopilot.com/guide/your-first-project).
 
 ## 4. Keep track of what needs you
 
-Use the session overview and the waiting-for-you column to find completed work, questions and permission requests. Review a requested action before approving it. Configure the notifications you want for each project.
+The column on the right holds everything that waits for you: questions, permission requests, finished work. Read the explanation on a request before you allow it. Choose which notifications you want, per project.
 
-## 5. Explore when you need more
+## 5. More computers
 
-- [Session overview and search](https://aigopilot.com/features/sessions)
-- [Working with Claude Code, Codex and Grok](https://aigopilot.com/features/agents)
-- [Permissions and privacy](https://aigopilot.com/features/permissions)
-- [Remote computers](https://aigopilot.com/features/remote-computers)
-- [All guides](https://aigopilot.com/guide)
+To work on a Mac, a second PC or a Linux server from your studio, install the agent there and pair it with the six digits it shows. See [Remote computers](https://aigopilot.com/features/remote-computers).
 
-Read the [confirmed release status](release-notes.md) before relying on a preview feature. Studio feature descriptions do not announce a public release.
+## Updates
 
-## Need help?
+The studio and the agents look for a newer build once a day and update themselves. What each build changed is in the [release notes](release-notes.md).
 
-Read [support guidance](support.md) or contact [official support](https://aigopilot.com/support). Keep account details and private project data out of public issues.
+## Help
+
+The [user guide](https://aigopilot.com/guide) covers every part of the studio. For a bug, open an [issue](https://github.com/aigopilot/aigopilot/issues/new/choose); for a question, start a [discussion](https://github.com/aigopilot/aigopilot/discussions); for your account or billing, use [private support](https://aigopilot.com/support).

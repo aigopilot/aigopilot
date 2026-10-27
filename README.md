@@ -1,74 +1,62 @@
 # AigoPilot
 
-**A Windows app for Claude Code, Codex and Grok. Every project. Every session. One place.**
+**One desktop studio for Claude Code, Codex and Grok. Every project, every session, one window.**
 
-AigoPilot brings your AI coding sessions into one desktop workspace. See what is working, what finished and what needs your answer, across your projects, without hunting through terminals.
+AigoPilot gathers your AI coding sessions in one place. You see which ones are working, which finished and which are waiting for your answer, across all your projects, without digging through terminals. It runs on Windows, macOS and Linux.
 
-[Official website](https://aigopilot.com/) · [Getting started](docs/getting-started.md) · [User guide](https://aigopilot.com/guide) · [Support](docs/support.md)
+[Website](https://aigopilot.com/) · [Getting started](docs/getting-started.md) · [Release notes](docs/release-notes.md) · [User guide](https://aigopilot.com/guide) · [Support](docs/support.md)
 
-## Release status — 13 October 2026
+![AigoPilot in its light theme, with sample projects, sessions and the column of what waits for you](docs/images/studio-light.png)
 
-**Only the AigoPilot remote agents for Windows and macOS have been released. The main AigoPilot desktop studio has not been publicly released.**
+*Sample projects and conversations. The interface may differ slightly between versions.*
 
-The screenshots, studio features and setup guides below describe a development preview. They do not announce a public studio release. An agent is a separate component, not the full desktop application.
+## Current release
 
-See the [product release notes and development baseline](docs/release-notes.md) for the current status. Official agent download information is on the [remote computers page](https://aigopilot.com/features/remote-computers).
+**Version 0.1.0, build of 25 October 2026.** The studio is on sale for Windows, macOS and Linux. See [what is new](docs/release-notes.md).
 
-![AigoPilot light theme showing illustrative projects, sessions and a waiting-for-you column](docs/images/studio-light.png)
+| | Download |
+|---|---|
+| Studio for Windows 10 and 11 (64-bit) | From your account on [aigopilot.com](https://aigopilot.com/) after purchase |
+| Studio for macOS 13.3 or newer (Apple silicon) | From your account on [aigopilot.com](https://aigopilot.com/) after purchase |
+| Studio for Linux (x86_64, AppImage or .deb) | [Installing on Linux](https://aigopilot.com/guide/installing-on-linux) |
+| Agent for a second Windows or Mac computer | [Remote computers](https://aigopilot.com/features/remote-computers) |
 
-*Product preview with fictional sample projects and conversations.*
+Download AigoPilot from aigopilot.com only. This repository never holds installers or program files. Installed studios and agents look for a newer build once a day and update themselves.
 
-## Studio development preview
+Plans: USD 49 a year, or USD 99 once for lifetime use. Details on the [pricing section](https://aigopilot.com/#pricing) of the website.
 
-The current studio development preview covers these workflows. Their inclusion here does not mean the studio is publicly available:
+## What it does
 
-- Find Claude Code and Codex sessions already on your computer, including sessions started from your editor or terminal.
-- Run Claude Code, Codex and Grok through their official command-line tools using your own accounts.
-- See sessions across projects, send prompts and respond to questions from one window.
-- Get Windows notifications when a session finishes or needs your attention.
-- Search earlier conversations and inspect the files a session changed.
-- Continue a long Claude Code or Codex conversation in a fresh linked session with a handover.
-- Connect a Mac or another Windows computer through an AigoPilot agent and manage its sessions from the Windows studio. See the [remote-computer guide](https://aigopilot.com/features/remote-computers) for available installers and current limits.
+- Finds the Claude Code and Codex sessions already on your computer, including ones you started from your editor or a terminal.
+- Runs Claude Code, Codex and Grok through their official command-line tools, with your own accounts.
+- Shows every project and session in one window. Send prompts, answer questions and decide on permission requests there.
+- Explains each permission request in plain words before you decide: what it would delete, who wrote that file, whether it reaches the network.
+- Notifies you when a session finishes or needs you.
+- Searches earlier conversations and shows the files a session changed.
+- Continues a long conversation in a fresh, linked session, or moves a project to another of the three tools.
+- Works on your other computers too: a Mac, another Windows PC or a Linux server, through an agent paired with six digits.
+- Draws a map of how a project is built, in one click.
+- Has a files panel for each project, with previews.
+- Reads the mail of each project, sorts it by what matters and drafts answers you approve. Every outgoing email waits a few minutes, so you can still cancel it.
+- Speaks English and Japanese.
 
-The [Marketplace](https://aigopilot.com/marketplace) describes optional plugins. Plugin pages and product previews are not evidence of a public studio release.
+Optional plugins are in the [Marketplace](https://aigopilot.com/marketplace): SearchPlan for keyword research, Social Studio for posts and videos, Chat Agent for your website's visitors, and a free connection to Bing Webmaster Tools. Google Search Console and Google Analytics connections are in development.
 
-## Availability and official links
+All AI work runs on your own Claude Code, Codex or Grok subscription. AI usage is not part of an AigoPilot plan.
 
-The desktop studio targets **Windows 10 and Windows 11** and is not publicly released yet. Visit [aigopilot.com](https://aigopilot.com/) for product information and future release announcements. [Pricing information](https://aigopilot.com/#pricing) does not imply that the studio is available to download or try today.
+## Report a bug, ask a question
 
-Your AigoPilot licence and your AI provider plans are separate. Use your own Claude Code, Codex or Grok account; AI usage is not included in an AigoPilot licence.
+- **Bug or feature request:** open an [issue](https://github.com/aigopilot/aigopilot/issues/new/choose). The form asks for what we need.
+- **Questions, ideas, how do I...:** use [Discussions](https://github.com/aigopilot/aigopilot/discussions).
+- **Billing, your account, anything private:** [aigopilot.com/support](https://aigopilot.com/support) or info@aigopilot.com.
+- **A security problem:** please report it privately. See [SECURITY.md](SECURITY.md).
 
-## Guides
+Issues and Discussions are public. Never post passwords, tokens, licence details, pairing codes, private paths, conversations or customer data.
 
-[Browse this repository's documentation](docs/README.md), including [platform availability](docs/platforms-and-availability.md), or follow the official guides below.
-
-Studio installation and first-run guides are preview documentation until the main application is publicly released.
-
-- [Install AigoPilot](https://aigopilot.com/guide/installing-aigopilot)
-- [First-run setup](https://aigopilot.com/guide/first-run-setup)
-- [Your first project](https://aigopilot.com/guide/your-first-project)
-- [Claude Code GUI for Windows](https://aigopilot.com/claude-code-gui)
-- [Codex on Windows](https://aigopilot.com/codex-windows)
-- [Conductor alternative for Windows](https://aigopilot.com/compare/conductor)
-- [All tutorials and help](https://aigopilot.com/guide)
-- [Japanese website and guides](https://aigopilot.com/ja/)
-
-## Report a problem or suggest a feature
-
-Use this repository's [Issues](https://github.com/aigopilot/aigopilot/issues) for public bug reports and feature suggestions. Read [support guidance](docs/support.md) first. For billing, account questions or anything private, use the [official support page](https://aigopilot.com/support).
-
-Never include credentials, pairing codes, private conversations, customer data or unredacted logs in a public issue.
-
-## Dark theme preview
-
-![AigoPilot dark theme showing illustrative projects and AI coding sessions](docs/images/studio-dark.png)
-
-*Product preview with fictional sample data; the exact interface can vary by version.*
+![AigoPilot in its dark theme, with sample projects and sessions](docs/images/studio-dark.png)
 
 ## About this repository
 
-This is AigoPilot's public documentation, product preview and issue-tracking repository. It contains **no application source code**, backend code, credentials or private project files. AigoPilot is proprietary software; this repository does not make the application open source.
+This repository holds AigoPilot's public documentation, release notes and issue tracker. It contains no application source code. AigoPilot is proprietary software; this repository does not make it open source.
 
-For official product information and agent downloads, visit the website. See [product release notes](docs/release-notes.md) for the confirmed release status and [the public documentation changelog](docs/changelog.md) for changes to this public repository.
-
-AigoPilot is a product of Doment Digital FZE LLC. It is independent software and is not affiliated with Anthropic, OpenAI or xAI.
+AigoPilot is made by Doment Digital FZE LLC. It is independent software and is not affiliated with Anthropic, OpenAI or xAI.

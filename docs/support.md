@@ -1,28 +1,25 @@
-# Support and public issues
+# Support
 
-## Private support
+## Where to go
 
-Use [aigopilot.com/support](https://aigopilot.com/support) for licence, payment, account and private support questions. The support email is **info@aigopilot.com**.
+| You want to | Go to |
+|---|---|
+| Report a bug | [New issue, bug report](https://github.com/aigopilot/aigopilot/issues/new?template=bug_report.yml) |
+| Suggest a feature | [New issue, feature request](https://github.com/aigopilot/aigopilot/issues/new?template=feature_request.yml) |
+| Ask how to do something, share an idea | [Discussions](https://github.com/aigopilot/aigopilot/discussions) |
+| Licence, payment, your account, anything private | [aigopilot.com/support](https://aigopilot.com/support) or info@aigopilot.com |
+| Report a security problem | Privately, as in [SECURITY.md](../SECURITY.md) |
 
-For a suspected security vulnerability, report it privately through the same support channel. Do not publish sensitive details in an issue.
+Search the [existing issues](https://github.com/aigopilot/aigopilot/issues) first. Someone may have reported it already; a thumbs-up on that issue helps more than a copy of it.
 
-## Public bug reports
+## A good bug report
 
-Search [existing issues](https://github.com/aigopilot/aigopilot/issues) first. Use the [bug report template](bug-report-template.md) to prepare a report. If you open a new issue, include:
+1. Your AigoPilot version, roughly when it last updated, and your system.
+2. Which tool: Claude Code, Codex or Grok, with its version if you know it.
+3. Whether the session was on this computer or on a remote one (just its system).
+4. The steps that make it happen, what you expected, and what happened instead.
+5. A screenshot or a short excerpt if it helps, with private parts removed.
 
-1. A short description of the problem.
-2. Your AigoPilot version and Windows version.
-3. The affected agent: Claude Code, Codex or Grok, with its version if relevant.
-4. The steps that reproduce the problem.
-5. What you expected and what happened instead.
-6. A redacted screenshot or small, non-sensitive excerpt if it helps.
+## Before you post anything
 
-If the problem involves another computer, mention its operating system and whether the issue is local or remote. Do not include its address, device keys or pairing code.
-
-## Feature suggestions
-
-Use the [feature request template](feature-request-template.md). Describe the task you are trying to complete, what is difficult now and what result would help. Check the [current features and availability](https://aigopilot.com/features) first.
-
-## Before posting anything
-
-GitHub issues are public. Remove passwords, tokens, API keys, licence details, payment information, pairing codes, private project paths, conversations and customer data. Do not upload a full diagnostic archive or session transcript publicly. If you cannot safely reduce the example, use private support.
+Issues and Discussions are public. Remove passwords, tokens, API keys, licence details, payment details, pairing codes, private paths, conversations and customer data. Do not attach a full session transcript or a diagnostic archive. If you cannot make the example safe, write to private support instead.

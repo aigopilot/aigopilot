@@ -1,29 +1,22 @@
-# Platforms and feature availability
+# Platforms and availability
 
-Release status confirmed by the product owner on **13 October 2026**: only the Windows and macOS remote agents have been released. The main application has not been publicly released.
+Status at the build of 25 October 2026.
 
-## Not publicly released: Windows studio
+| Part | Status | Systems |
+|---|---|---|
+| Studio | On sale | Windows 10 and 11 (64-bit); macOS 13.3 or newer on Apple silicon; Linux x86_64 with glibc 2.35 or newer |
+| Agent | Released | Windows, macOS, Linux (the Linux studio is also its agent) |
+| iPhone app | In testing | Not on the App Store or TestFlight yet |
+| Plugins | See the [Marketplace](https://aigopilot.com/marketplace) | Inside the studio |
 
-The main desktop studio is in development for Windows 10 and Windows 11. Its preview workflows use the official Claude Code, Codex and Grok command-line tools with the user's own accounts.
+There is no build for Intel Macs, and none for ARM Linux yet.
 
-Screenshots, tutorials, setup guides and pricing pages do not establish public release. See the [development baseline](release-notes.md) for the documented preview scope.
+## AI tools
 
-## Released: remote agents for Windows and macOS
+AigoPilot works with Claude Code, Codex and Grok through their official command-line tools, signed in with your own accounts. It never reads or reuses your login tokens.
 
-AigoPilot agents for Windows and macOS have been released. They are separate remote-computer components, not the full desktop studio. Official download information, setup guidance and current limits are on the [remote computers page](https://aigopilot.com/features/remote-computers).
+## Languages
 
-No agent version number or original release date is asserted in this record; 13 October is the date this status was confirmed.
+The studio is shown in English or Japanese. Services that write for your work (mail answers, posts, reports) write in the language of that work.
 
-## Other platforms
-
-A Linux agent and full Mac and Linux studio editions are planned and have not been released. No release date is promised here.
-
-## iPhone
-
-The iPhone companion is in testing and has not been publicly released. It is not currently available on the App Store or TestFlight. Its features and limits are described on the [iPhone page](https://aigopilot.com/features/iphone).
-
-## Plugins
-
-The [Marketplace](https://aigopilot.com/marketplace) describes optional plugins. Neither a plugin listing nor a preview workflow means the main application has been publicly released.
-
-For official product information, visit [aigopilot.com](https://aigopilot.com/).
+For the full list of features and what is still coming, see [aigopilot.com/features](https://aigopilot.com/features).
