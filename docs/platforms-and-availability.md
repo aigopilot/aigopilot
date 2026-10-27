@@ -1,12 +1,12 @@
 # Platforms and availability
 
-Status at the build of 25 October 2026.
+Status at the build of 27 October 2026.
 
 | Part | Status | Systems |
 |---|---|---|
 | Studio | On sale | Windows 10 and 11 (64-bit); macOS 13.3 or newer on Apple silicon; Linux x86_64 with glibc 2.35 or newer |
 | Agent | Released | Windows, macOS, Linux (the Linux studio is also its agent) |
-| iPhone app | In testing | Not on the App Store or TestFlight yet |
+| iPhone app | With Apple for review | Not on the App Store or TestFlight yet; included in every plan |
 | Plugins | See the [Marketplace](https://aigopilot.com/marketplace) | Inside the studio |
 
 There is no build for Intel Macs, and none for ARM Linux yet.

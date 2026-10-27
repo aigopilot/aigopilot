@@ -4,6 +4,7 @@ This file records changes to the documentation here. What changed in AigoPilot i
 
 ## 2026-10-27
 
+- Release notes for the build of 27 October 2026, and the iPhone app marked as with Apple for review.
 - Brought everything up to date with the build of 25 October 2026: the studio is on sale for Windows, macOS and Linux.
 - Release notes now list each build with what it added and fixed.
 - Bug reports and feature requests use issue forms. The old Markdown templates are gone.
