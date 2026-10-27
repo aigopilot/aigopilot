@@ -1,6 +1,6 @@
 # Release notes
 
-What each build of AigoPilot brought, newest first. Every build here is on [aigopilot.com](https://aigopilot.com/), and installed studios and agents update to it by themselves within a day.
+What each build of AigoPilot brought, newest first. Every build here is on [aigopilot.com](https://aigopilot.com/), and agents, the macOS studio and the Linux studio update to it by themselves within a day. On Windows, the studio is updated by downloading the new installer from your account page.
 
 All builds of October 2026 carry the version number 0.1.0, so they are named here by their date.
 
