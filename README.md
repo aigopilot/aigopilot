@@ -12,7 +12,7 @@ AigoPilot gathers your AI coding sessions in one place. You see which ones are w
 
 ## Current release
 
-**Version 0.1.0, build of 27 October 2026.** The studio is on sale for Windows, macOS and Linux. See [what is new](docs/release-notes.md).
+**Version 0.1.0, build of 27 October 2026 (AigoPilot 1.930 in Settings).** The studio is on sale for Windows, macOS and Linux. See [what is new](docs/release-notes.md).
 
 | | Download |
 |---|---|

@@ -2,7 +2,7 @@
 
 What each build of AigoPilot brought, newest first. Every build here is on [aigopilot.com](https://aigopilot.com/), and agents, the macOS studio and the Linux studio update to it by themselves within a day. On Windows, the studio is updated by downloading the new installer from your account page.
 
-All builds of October 2026 carry the version number 0.1.0, so they are named here by their date.
+All builds of October 2026 carry the version number 0.1.0, so they are named here by their date. Since the build of 27 October, Settings also shows a build number, such as AigoPilot 1.930.
 
 ## 0.1.0, build of 27 October 2026
 
@@ -18,6 +18,15 @@ Windows studio, macOS studio, macOS agent and Linux (AppImage and .deb). Linux a
 - Mail: answer templates carry their own signature, a new mailbox starts with a default one, and an empty signature is pointed out.
 - Mail: when a suggested answer needs a fact the template does not have, the gap is written by AI from the project's own knowledge, and you see it before anything is sent.
 - Mail: after Send, your answer stays where you wrote it, with Send now, Stop sending and a bar that shows the time left.
+- Mail: **Await their reply** marks a conversation you expect an answer to. Marked conversations sit above the pins, and when the answer arrives the studio rings until you read it (not in quiet hours). After a few days without an answer (5 by default) you get one reminder and a follow-up drafted for you. The AI that reads your mail can also suggest the mark, and one click undoes it.
+- Mail: an open email now takes the whole mail column, with Back to mail list at its top and bottom, and nothing scrolls inside a box of its own.
+- The version is shown in Settings, under About AigoPilot, with its build date. This build is **AigoPilot 1.930**. The list of computers shows which build each one runs and marks one that is older.
+- When a helper session answers, its note in the parent conversation folds to one line. Click it to read the whole answer.
+
+**Fixed**
+- Panels no longer reset or lose what you are typing when the studio refreshes its lists every few seconds. This also fixes a Bing Webmaster Tools key being lost while it was tried.
+- A project's open settings and long announcements scroll inside their column.
+- Nothing runs past its column or covers another control at window widths from 900 to 1920 pixels: the mail lists, the template row, the prompt row, the session cards and the title bar.
 
 ## 0.1.0, build of 25 October 2026
 

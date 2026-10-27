@@ -14,7 +14,7 @@ Search the [existing issues](https://github.com/aigopilot/aigopilot/issues) firs
 
 ## A good bug report
 
-1. Your AigoPilot version, roughly when it last updated, and your system.
+1. Your AigoPilot version (Settings, About AigoPilot, for example AigoPilot 1.930) and your system.
 2. Which tool: Claude Code, Codex or Grok, with its version if you know it.
 3. Whether the session was on this computer or on a remote one (just its system).
 4. The steps that make it happen, what you expected, and what happened instead.

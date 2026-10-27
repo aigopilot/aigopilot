@@ -44,8 +44,8 @@ body:
     id: version
     attributes:
       label: AigoPilot version
-      description: And roughly when it last updated, if you know.
-      placeholder: "0.1.0, updated 25 October"
+      description: Shown in Settings, under About AigoPilot. Older builds without it, say roughly when it last updated.
+      placeholder: "AigoPilot 1.930"
   - type: dropdown
     id: tool
     attributes:
