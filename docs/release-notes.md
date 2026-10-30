@@ -2,7 +2,33 @@
 
 What each build of AigoPilot brought, newest first. Every build here is on [aigopilot.com](https://aigopilot.com/), and agents, the macOS studio and the Linux studio update to it by themselves within a day. On Windows, the studio is updated by downloading the new installer from your account page.
 
-All builds of October 2026 carry the version number 0.1.0, so they are named here by their date. Since the build of 27 October, Settings also shows a build number, such as AigoPilot 1.930.
+All builds of October 2026 carry the version number 0.1.0, so they are named here by their date. Since the build of 27 October, Settings also shows a build number, such as AigoPilot 1.989.
+
+## 0.1.0, build of 30 October 2026
+
+Windows studio, macOS studio and macOS agent. Linux stays on the build of 27 October. Settings shows this build as **AigoPilot 1.989**.
+
+**New**
+- Social Studio designs every post by one method. Your brand gets a visual system (corners, shadows, type, motion and imagery), proposed by your own AI and changed by you, with its colors measured for reading on light and dark grounds. Each picture uses one of ten layout families, such as a poster, a split, a device, a number or a comparison, so a series does not repeat one frame.
+- Social Studio takes screenshots of your own site, on a desktop and a phone, and shows them whole in browser and phone frames. When the project runs on Codex, a painted art panel in your brand's colors can lead the cover.
+- Social Studio reads your brand from your site more truly: the site's own logo (never a social icon of its footer), the typeface its text is set in, and its colors, with a border or a text color that would not read made from the others. A brand whose site is dark gets posts that lead with a dark ground.
+- Social Studio can take pictures of the product from the project's own files, such as store screenshots or a press kit, and shows such a finished picture whole. Blog articles are left out when it reads the product.
+- Social Studio looks at its own work: after drawing, and before a video is rendered, the project's own AI judges the pictures at phone size and revises them once. Claude Code and Codex can look; Grok cannot, and its posts say so.
+- Social Studio: video captions are cut where the meaning allows, every word is kept clear of the crops and buttons of Instagram and YouTube, and a sentence said twice or a label that disagrees with the picture is caught. Nothing is laid over the words inside a product picture.
+- Social Studio: set the length of a post's words (short, medium or long), the emoji (none by default, or a few, some or many) and a link to the feature's own page on your site, once for a project or on a single post.
+- Social Studio: kinds of content as switches (new feature, tutorial, tips, what is new in a version, behind the scenes, poll, use case, offer, event, questions). The planner proposes only the kinds that are on. An offer needs a price you approved, and a poll is never planned for Telegram.
+- Social Studio's planner offers the Telegram picture, follows the note you write for a plan, gives each idea a different feature to lead with, and reads the status of each feature from evidence such as your site or finished code.
+- Mail: one search box looks through every stored email of every project, in and out, of any age, without asking your mail server or an AI.
+- Mail: when you add a mailbox you choose how far back it is read, from two weeks to everything. Older emails come in a few at a time while new mail keeps arriving. A mailbox added earlier asks the same question once.
+- Bing Webmaster Tools draws the numbers it keeps: 28 days of clicks and impressions, this week against the last, the searches and pages that moved, and projects side by side.
+- Two paid plugins are in the studio and cannot be used yet, because their subscriptions are not on sale: **Marketing** (a plan for each product, landing pages, articles, email campaigns, ads and checks of AI answers) and **Sales** (lead follow-up and drafts for failed payments). When they open they will be sold only through Stripe, in the countries listed on their pages.
+
+**Fixed**
+- Social Studio: a change you ask for in words keeps every picture of the post unless you ask one away, and a picture that went missing is caught.
+- Social Studio: every tab reloads when you switch to another project, so nothing of the project before is left behind.
+- Mail: a delivery failure report or a newsletter is never taken for the answer you are awaiting.
+- Mail: an answer that already ends with your own closing goes without the mailbox signature, so it is not signed twice.
+- Support to fix: an email the screening finds is no bug report at all, such as a pitch or praise, leaves the bug reports by itself.
 
 ## 0.1.0, build of 27 October 2026
 
@@ -86,5 +112,6 @@ Before the studio went on sale, the agents for Windows and macOS were released o
 
 - The iPhone app is with Apple for review and not on the App Store or TestFlight yet. It will be included in every plan at no extra cost.
 - Google Search Console and Google Analytics connections are in development.
+- The Marketing and Sales plugins are in the studio, and their subscriptions are not on sale yet.
 
 [Website](https://aigopilot.com/) · [Platforms](platforms-and-availability.md) · [Changes to this repository](changelog.md)

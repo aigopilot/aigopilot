@@ -12,7 +12,7 @@ AigoPilot gathers your AI coding sessions in one place. You see which ones are w
 
 ## Current release
 
-**Version 0.1.0, build of 27 October 2026 (AigoPilot 1.930 in Settings).** The studio is on sale for Windows, macOS and Linux. See [what is new](docs/release-notes.md).
+**Version 0.1.0, build of 30 October 2026 (AigoPilot 1.989 in Settings).** The studio is on sale for Windows, macOS and Linux. See [what is new](docs/release-notes.md).
 
 | | Download |
 |---|---|
@@ -37,10 +37,10 @@ Plans: USD 49 a year, or USD 99 once for lifetime use. Details on the [pricing s
 - Works on your other computers too: a Mac, another Windows PC or a Linux server, through an agent paired with six digits.
 - Draws a map of how a project is built, in one click.
 - Has a files panel for each project, with previews.
-- Reads the mail of each project, sorts it by what matters and drafts answers you approve. Every outgoing email waits a few minutes, so you can still cancel it.
+- Reads the mail of each project, as far back as you choose, sorts it by what matters and drafts answers you approve. One box searches all of it. Every outgoing email waits a few minutes, so you can still cancel it.
 - Speaks English and Japanese.
 
-Optional plugins are in the [Marketplace](https://aigopilot.com/marketplace): SearchPlan for keyword research, Social Studio for posts and videos, Chat Agent for your website's visitors, and a free connection to Bing Webmaster Tools. Google Search Console and Google Analytics connections are in development.
+Optional plugins are in the [Marketplace](https://aigopilot.com/marketplace): SearchPlan for keyword research, Social Studio for posts and videos designed in your brand, Chat Agent for your website's visitors, and free plugins for Bing Webmaster Tools, Stripe sales and Microsoft Store numbers. Marketing and Sales are in the studio and not on sale yet. Google Search Console and Google Analytics connections are in development.
 
 All AI work runs on your own Claude Code, Codex or Grok subscription. AI usage is not part of an AigoPilot plan.
 

@@ -1,6 +1,6 @@
 # Platforms and availability
 
-Status at the build of 27 October 2026.
+Status at the build of 30 October 2026. The Linux studio and agent stay on the build of 27 October.
 
 | Part | Status | Systems |
 |---|---|---|
