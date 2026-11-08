@@ -1,8 +1,18 @@
 # Release notes
 
-What each build of AigoPilot brought, newest first. Every build here is on [aigopilot.com](https://aigopilot.com/), and agents, the macOS studio and the Linux studio update to it by themselves within a day. On Windows, the studio is updated by downloading the new installer from your account page.
+What each build of AigoPilot brought, newest first. Every build here is on [aigopilot.com](https://aigopilot.com/), and agents, the macOS studio and the Linux studio update to it by themselves within a day. On Windows, the studio is updated by downloading the new installer from your account page. The iPhone app comes from the App Store and updates through it.
 
 All builds of October 2026 carry the version number 0.1.0, so they are named here by their date. Since the build of 27 October, Settings also shows a build number, such as AigoPilot 1.989.
+
+## iPhone app 1.0, 5 November 2026
+
+The AigoPilot iPhone app is on the [App Store](https://apps.apple.com/app/id6820415822), free to download. It pairs with the studio on your own Windows, Mac or Linux computer and does not work on its own.
+
+- See the projects and sessions of every computer of your studio, send prompts, answer questions and permissions with the whole command in front of you, stop a session or start a new one.
+- The mail of your projects, with suggested answers, templates and the same outbox as the desktop, and every Stripe sale as it happens.
+- Notifications while the app is closed, and a permission that still waits rings the phone again.
+- Away from home the phone reaches the studio through a relay that cannot read your data.
+- The yearly and lifetime plans (49 USD a year or 99 USD once) can also be bought inside the app through Apple, in every country where the App Store offers it (all but mainland China and France). A plan bought on the website includes the app at no extra cost.
 
 ## 0.1.0, build of 30 October 2026
 
@@ -110,7 +120,6 @@ Before the studio went on sale, the agents for Windows and macOS were released o
 
 ## Not released yet
 
-- The iPhone app is with Apple for review and not on the App Store or TestFlight yet. It will be included in every plan at no extra cost.
 - Google Search Console and Google Analytics connections are in development.
 - The Marketing and Sales plugins are in the studio, and their subscriptions are not on sale yet.
 
