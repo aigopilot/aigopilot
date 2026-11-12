@@ -2,7 +2,42 @@
 
 What each build of AigoPilot brought, newest first. Every build here is on [aigopilot.com](https://aigopilot.com/), and agents, the macOS studio and the Linux studio update to it by themselves within a day. On Windows, the studio is updated by downloading the new installer from your account page. The iPhone app comes from the App Store and updates through it.
 
-All builds of October 2026 carry the version number 0.1.0, so they are named here by their date. Since the build of 27 October, Settings also shows a build number, such as AigoPilot 1.989.
+All builds so far carry the version number 0.1.0, so they are named here by their date. Since the build of 27 October, Settings also shows a build number, such as AigoPilot 1.989.
+
+## 0.1.0, build of 12 November 2026
+
+Windows studio, macOS studio and macOS agent. Linux stays on the build of 27 October. Settings shows this build as **AigoPilot 1.1079**.
+
+**New**
+- **Tidy the list.** A broom sign beside the project search box clears a long list in one go. Choose Archive or Hide, then either every project that is not pinned, or every project whose last session is before a date you pick. The studio counts first and tells you how many it will touch. Pinned projects, and projects with a session working or waiting for you, are always left alone. Folders and sessions are never touched. It was made for people who open the studio and find hundreds of projects read from their old Claude Code, Codex and Grok sessions.
+- Hidden projects are a new state, separate from the archive. They leave the list and the alerts, and **Hidden projects** at the end of the list brings them back one by one, or all at once with **Show all**. Useful when you want a clean list for a screen recording without archiving anything.
+- Archived projects can now all come back at once with **Bring all back**.
+- Project memory, off until you turn it on. A project keeps the decisions and findings you want later sessions to know: added by hand, saved from a message, or proposed by the project's own AI subscription when you ask and kept only after you approve. Prompts the studio sends later carry the memory that fits them. Saving and finding memory needs no model. Memory can be carried with a project to another computer. Typing straight into a terminal outside the studio does not get it.
+- A bar of icons on the left edge holds the common buttons that used to crowd the top bar, and one icon for each plugin you have. A plugin's icon opens a summary of it, such as a project's sales from Stripe and Paddle together.
+- The title bar is smaller: usage is a ring for each tool with the percent of its fullest limit, and the permission mode is a shield with the mode's name.
+- The Codex credit balance is shown apart from plan usage, in the title bar and on the Usage page, with how old the reading is.
+- **Sales through Paddle**, a free plugin. Connect a project's Paddle account with a key that can only read, and the studio looks for new sales every five minutes (or 1, 15, 30 or 60, your choice). The sales of one check come as one notice, such as "2 new sales: 240.00 GBP". Refunds, chargebacks, failed payments, subscriptions, renewals coming, payouts and an estimated balance are on its page, with alerts when sales drop or grow. Every amount is in your own account's currency. When one Paddle account sells several products, each project can show only its own.
+- Sales through Stripe now shows every amount as it settled in your Stripe account's own currency, instead of a separate sum for each currency your buyers paid in.
+- Mail: buttons to copy an email's text and the sender's address. The notice about how far back a mailbox is read can be closed.
+- Audio and video files play in the file pane, large ones too, also from another computer. Files named in a conversation are found in the project's own git worktrees.
+- A text preview follows each line's own writing direction and wraps long lines, and its Copy button copies the text without line numbers. A picture attached to a prompt opens full size when you click its thumbnail.
+- File addresses on Windows are shown and copied with backslashes. A program's path in an answer can be previewed and copied, and is never started.
+- When Codex stops a turn over a safety finding, the studio shows Codex's own explanation and says it will not continue that session by itself.
+- Social Studio: a change you ask for in words is looked at by your AI and revised once, keeping exactly what you asked. The editor moves to the new version by itself when the change is done.
+- Social Studio's Instagram publishing was checked against Meta's current documents before its first real post: the caption goes out whole and is counted exactly as sent, a Reel gets its first scene as the cover, a token that cannot publish is refused at Connect, and the day's publishing limit is shown.
+- Marketing (in the studio, not on sale yet): email campaigns now have named lists, several sending mailboxes in turn, versions of the subject and text tried on a sample first, and a daily schedule. Before any campaign email goes out, a closed set of checks must pass: the address itself, the sender's authentication, your explicit permission for this campaign, and that the person was not contacted before or unsubscribed. When a check cannot tell, the email waits.
+- Marketing: when a mailbox's domain is missing SPF, DMARC or DKIM, the studio names your DNS host and mail provider and gives the record ready to copy, written the way that host wants it. It never writes to your DNS. Then it checks again every 10 minutes for up to 48 hours and tells you when the records are in place.
+
+**Fixed**
+- Choosing Default as the model of a running Claude Code session now really switches to your account's default model.
+- Sessions no longer stall with prompts waiting "In line" when one window of the studio stops reading.
+- Codex prompts no longer appear twice in a session's history.
+- Saving a project map as PNG or SVG works on the Mac.
+- Await their reply: the reminder stops once you open the newest answer, even when an older email from the same people is still unread.
+- The working sign of a session no longer covers its words.
+
+**iPhone app, in its next App Store update**
+- Remaining weekly and five-hour capacity in a session, buttons to copy an email's text and sender, project memory, a notice when SPF and DMARC are in place, audio and video from the file pane, and a little more room above the prompt controls.
 
 ## iPhone app 1.0, 5 November 2026
 

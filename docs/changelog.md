@@ -2,6 +2,10 @@
 
 This file records changes to the documentation here. What changed in AigoPilot itself is in the [release notes](release-notes.md).
 
+## 2026-11-12
+
+- Release notes for the build of 12 November 2026, and the current release named in the README and the platforms page.
+
 ## 2026-11-08
 
 - The iPhone app is on the App Store: its release notes, and the platforms page and the list of what is not released yet brought up to it.

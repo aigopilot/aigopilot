@@ -12,7 +12,7 @@ AigoPilot gathers your AI coding sessions in one place. You see which ones are w
 
 ## Current release
 
-**Version 0.1.0, build of 30 October 2026 (AigoPilot 1.989 in Settings).** The studio is on sale for Windows, macOS and Linux. See [what is new](docs/release-notes.md).
+**Version 0.1.0, build of 12 November 2026 (AigoPilot 1.1079 in Settings).** The studio is on sale for Windows, macOS and Linux (the Linux studio is at the build of 27 October). See [what is new](docs/release-notes.md).
 
 | | Download |
 |---|---|
@@ -29,7 +29,7 @@ Plans: USD 49 a year, or USD 99 once for lifetime use. Details on the [pricing s
 
 - Finds the Claude Code and Codex sessions already on your computer, including ones you started from your editor or a terminal.
 - Runs Claude Code, Codex and Grok through their official command-line tools, with your own accounts.
-- Shows every project and session in one window. Send prompts, answer questions and decide on permission requests there.
+- Shows every project and session in one window. Send prompts, answer questions and decide on permission requests there. A list of hundreds of projects is tidied in one go: hide or archive everything that is not pinned, or older than a date.
 - Explains each permission request in plain words before you decide: what it would delete, who wrote that file, whether it reaches the network.
 - Notifies you when a session finishes or needs you.
 - Searches earlier conversations and shows the files a session changed.
@@ -40,7 +40,7 @@ Plans: USD 49 a year, or USD 99 once for lifetime use. Details on the [pricing s
 - Reads the mail of each project, as far back as you choose, sorts it by what matters and drafts answers you approve. One box searches all of it. Every outgoing email waits a few minutes, so you can still cancel it.
 - Speaks English and Japanese.
 
-Optional plugins are in the [Marketplace](https://aigopilot.com/marketplace): SearchPlan for keyword research, Social Studio for posts and videos designed in your brand, Chat Agent for your website's visitors, and free plugins for Bing Webmaster Tools, Stripe sales and Microsoft Store numbers. Marketing and Sales are in the studio and not on sale yet. Google Search Console and Google Analytics connections are in development.
+Optional plugins are in the [Marketplace](https://aigopilot.com/marketplace): SearchPlan for keyword research, Social Studio for posts and videos designed in your brand, Chat Agent for your website's visitors, and free plugins for Bing Webmaster Tools, Stripe sales, Paddle sales and Microsoft Store numbers. Marketing and Sales are in the studio and not on sale yet. Google Search Console and Google Analytics connections are in development.
 
 All AI work runs on your own Claude Code, Codex or Grok subscription. AI usage is not part of an AigoPilot plan.
 
