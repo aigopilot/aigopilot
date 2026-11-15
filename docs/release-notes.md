@@ -4,6 +4,16 @@ What each build of AigoPilot brought, newest first. Every build here is on [aigo
 
 All builds so far carry the version number 0.1.0, so they are named here by their date. Since the build of 27 October, Settings also shows a build number, such as AigoPilot 1.989.
 
+## 0.1.0, Linux build of 15 November 2026
+
+Linux studio and agent, available as AppImage and Debian packages. Settings shows **AigoPilot 1.1083**. This brings Linux up to the desktop features released for Windows and Mac on 12 November; those downloads are unchanged.
+
+- **Tidy the list on Linux.** Hide or archive projects in a group, keep pinned and active projects in place, then bring hidden or archived projects back. Project folders and conversations stay intact.
+- Linux also receives the other desktop improvements described in the 12 November release, including project memory, the top bar and usage indicators, and the mail and sales improvements. Plugin availability and plan requirements are unchanged.
+- Both Linux packages were checked with the English and Japanese interfaces. The AppImage's bundled browser resources have been prepared for production, with its inspector resources removed and required third-party licences retained.
+
+Download the [AppImage](https://aigopilot.com/download/linux-appimage) or [Debian package](https://aigopilot.com/download/linux-deb). See the [Linux installation guide](https://aigopilot.com/guide/installing-on-linux).
+
 ## 0.1.0, build of 12 November 2026
 
 Windows studio, macOS studio and macOS agent. Linux stays on the build of 27 October. Settings shows this build as **AigoPilot 1.1079**.

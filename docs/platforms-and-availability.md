@@ -1,6 +1,6 @@
 # Platforms and availability
 
-Status on 12 November 2026: the studio and the agent at the build of 12 November 2026 (the Linux studio and agent at the build of 27 October), and the iPhone app 1.0 on the App Store since 5 November.
+Status on 15 November 2026: the Windows and Mac studio and agent are at the build of 12 November. The Linux studio and agent are at the build of 15 November, with the same desktop feature set. The iPhone app 1.0 has been on the App Store since 5 November.
 
 | Part | Status | Systems |
 |---|---|---|
